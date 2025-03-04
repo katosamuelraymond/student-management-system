@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "student management system": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
