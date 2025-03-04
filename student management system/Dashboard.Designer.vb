@@ -417,10 +417,11 @@ Partial Class Dashboard
         ' 
         ' Dashboard
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1370, 749)
         Controls.Add(Guna2Panel1)
+        IsMdiContainer = True
         Name = "Dashboard"
         Text = "Dashboard"
         Guna2Panel1.ResumeLayout(False)
