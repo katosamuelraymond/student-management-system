@@ -27,7 +27,7 @@ Partial Class home
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(387, 103)
+        Button1.Location = New Point(12, 12)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 23)
         Button1.TabIndex = 0
