@@ -71,7 +71,7 @@ Partial Class loginform
         ' ComboBox1
         ' 
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Items.AddRange(New Object() {"Year One", "Year Two", "Year Three"})
+        ComboBox1.Items.AddRange(New Object() {"Admin", "Student", "Teacher"})
         ComboBox1.Location = New Point(220, 217)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(332, 39)
@@ -118,9 +118,9 @@ Partial Class loginform
         Label3.Font = New Font("Times New Roman", 18F, FontStyle.Bold)
         Label3.Location = New Point(53, 226)
         Label3.Name = "Label3"
-        Label3.Size = New Size(157, 26)
+        Label3.Size = New Size(59, 26)
         Label3.TabIndex = 2
-        Label3.Text = "Year Of Study"
+        Label3.Text = "Role"
         ' 
         ' stdpwd
         ' 
@@ -138,9 +138,9 @@ Partial Class loginform
         stdno.Font = New Font("Times New Roman", 18F, FontStyle.Bold)
         stdno.Location = New Point(53, 117)
         stdno.Name = "stdno"
-        stdno.Size = New Size(132, 26)
+        stdno.Size = New Size(115, 26)
         stdno.TabIndex = 0
-        stdno.Text = "Student No."
+        stdno.Text = "Username"
         ' 
         ' PictureBox1
         ' 
