@@ -381,7 +381,7 @@ Partial Class Dashboard
         Guna2Button2.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.Black
         Guna2Button2.ImageAlign = HorizontalAlignment.Left
-        Guna2Button2.Location = New Point(8, 71)
+        Guna2Button2.Location = New Point(8, 70)
         Guna2Button2.Margin = New Padding(3, 3, 3, 4)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges24
